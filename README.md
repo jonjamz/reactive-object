@@ -1,9 +1,9 @@
-# Meteor Reactive Object package
+# About
 This is a [Meteor](http://meteor.com/) smart package containing a class for reactive objects.
-These reactive objects use EMCA5 Object features to hook into the normal JS getters and setters.
+These reactive objects use EMCA5 Object features to hook reactivity into the normal JS getters and setters.
 This means that once you establish the initial properties in the object, there's no need to call a
-setter or an update method on the properties again. You can set them as you would any normal JS
-object, and Deps will be triggered.
+setter or an update method on the properties to change them. You can set them as you would any normal JS
+object property, and Deps will be triggered.
 These objects can be easily used within Meteor, up to and including version 0.8.
 
 ## Install
@@ -15,11 +15,7 @@ mrt add reactive-object
 ```
 
 ### Other
-If you don't like using meteorite create the folder `packages/reactive-object/` and can copy the `packages.js` and `lib/` to it.
-
-## ReactiveObject
-A reactive object implementation.
-Checkout the [api docs](http://boekkooi.github.io/reactive-object/reactive-object.html)
+If you don't like using meteorite, create the folder `packages/reactive-object/` and can copy the `packages.js` and `lib/` to it.
 
 ### Usage
 
@@ -33,4 +29,4 @@ obj.undefineProperty('foo'); // Don't use 'delete obj.foo' it will give strange 
 
 ### Authors
 
-[Warnar Boekkooi](https://github.com/boekkooi), author of the more feature-rich `reactive-extra`. Forked and edited by me, [Jon Jamz](https://github.com/jonjamz). I'm currently maintaining this as a separate package.
+[Warnar Boekkooi](https://github.com/boekkooi), author of the more feature-rich `reactive-extra`. Forked and edited by me, [Jon Jamz](https://github.com/jonjamz). I'm maintaining this as a separate package.
