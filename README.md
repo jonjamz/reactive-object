@@ -4,7 +4,7 @@ These reactive objects use EMCA5 Object features to hook into the normal JS gett
 This means that once you establish the initial properties in the object, there's no need to call a
 setter or an update method on the properties again. You can set them as you would any normal JS
 object, and Deps will be triggered.
-These objects can be easily used within Meteor.
+These objects can be easily used within Meteor, up to and including version 0.8.
 
 ## Install
 
@@ -33,4 +33,4 @@ obj.undefineProperty('foo'); // Don't use 'delete obj.foo' it will give strange 
 
 ### Authors
 
-Originally a smart package by [Warnar Boekkooi](https://github.com/boekkooi). Forked and edited by me, [Jon Jamz](https://github.com/jonjamz). I'm currently maintaining this as a separate package.
+[Warnar Boekkooi](https://github.com/boekkooi), author of the more feature-rich `reactive-extra`. Forked and edited by me, [Jon Jamz](https://github.com/jonjamz). I'm currently maintaining this as a separate package.
