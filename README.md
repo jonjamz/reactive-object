@@ -1,6 +1,6 @@
 # About
 This is a [Meteor](http://meteor.com/) smart package containing a class for reactive objects.
-These reactive objects use EMCA5 Object features to hook reactivity into the normal JS getters and setters.
+These reactive objects use EMCAScript 5 Object features to hook reactivity into the normal JS getters and setters.
 This means that once you establish the initial properties in the object, there's no need to call a
 setter or an update method on the properties to change them. You can set them as you would any normal JS
 object property, and Deps will be triggered.
