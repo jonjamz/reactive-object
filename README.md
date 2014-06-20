@@ -1,4 +1,7 @@
 # About
+
+Now features support for array prototype methods.
+
 This is a [Meteor](http://meteor.com/) smart package containing a class for reactive objects.
 These reactive objects use ECMAScript 5 Object features to hook reactivity into the normal JS getters and setters.
 This means that once you establish the initial properties in the object, there's no need to call a
