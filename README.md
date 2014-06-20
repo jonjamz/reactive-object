@@ -18,7 +18,7 @@ mrt add reactive-object
 ```
 
 ### Other
-If you don't like using meteorite, create the folder `packages/reactive-object/` and copy the `packages.js` and `lib/` to it.
+If you don't like using meteorite, create the folder `packages/reactive-object/` and copy the `package.js` and `lib/` to it.
 
 ## Usage
 
