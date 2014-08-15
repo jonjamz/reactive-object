@@ -3,7 +3,7 @@
   "description": "Reactive objects without the need for getters and setters",
   "homepage": "https://github.com/jonjamz/reactive-object",
   "author": "Jonathan James",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "git": "https://github.com/jonjamz/reactive-object.git",
   "packages": {}
 }
