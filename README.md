@@ -1,6 +1,18 @@
 # About
 
-Now features support for array prototype methods.
+Now features support for array prototype methods. However, you must use the provided `clean()` method to get an
+array without methods:
+
+```javascript
+var obj = new ReactiveObject({'cars':['lamborghini', 'ferrari']});
+
+// Use this property somewhere reactive
+Template.cars.helpers({
+  carTypes: function () {
+    obj.cars.clean(); // This will remove all array items with function type
+  }
+});
+```
 
 This is a [Meteor](http://meteor.com/) smart package containing a class for reactive objects.
 These reactive objects use ECMAScript 5 Object features to hook reactivity into the normal JS getters and setters.
