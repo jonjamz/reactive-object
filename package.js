@@ -13,6 +13,6 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use(['tinytest', 'reactive-object'], ['client', 'server']);
+  api.use(['tinytest', 'mrt:reactive-object'], ['client', 'server']);
   api.addFiles('lib/reactive-object-test.js', ['client', 'server']);
 });
