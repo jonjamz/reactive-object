@@ -19,18 +19,12 @@ These reactive objects use ECMAScript 5 Object features to hook reactivity into 
 This means that once you establish the initial properties in the object, there's no need to call a
 setter or an update method on the properties to change them. You can set them as you would any normal JS
 object property, and Deps will be triggered.
-These objects can be easily used within Meteor, up to and including version 0.8.
 
 ## Install
 
-### Meteorite
-Using [meteorite](http://oortcloud.github.io/meteorite/) do the following:
 ```
-mrt add reactive-object
+meteor add mrt:reactive-object
 ```
-
-### Other
-If you don't like using meteorite, create the folder `packages/reactive-object/` and copy the `package.js` and `lib/` to it.
 
 ## Usage
 
