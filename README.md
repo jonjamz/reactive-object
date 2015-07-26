@@ -9,7 +9,7 @@ var obj = new ReactiveObject({'cars':['lamborghini', 'ferrari']});
 // Use this property somewhere reactive
 Template.cars.helpers({
   carTypes: function () {
-    obj.cars.clean(); // This will remove all array items with function type
+    return obj.cars.clean(); // This will remove all array items with function type
   }
 });
 ```
